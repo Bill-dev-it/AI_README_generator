@@ -35,10 +35,32 @@ To use it, you must provide **your own API key** — it's quick and usually free
 
 → The tool is free to use, but each generation costs a tiny amount of your Anthropic credits (usually pennies or less per README).
 
-## 🚀 How to use this tool
-
-### Option 1: Quick local use (recommended for privacy)
-
-1. Download or clone this repository:
+## 🚀 How to use
+ 
+1. Clone this repo:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/ai-readme-generator.git
+   git clone https://github.com/YOUR_USERNAME/AI-README-generator.git
+   ```
+2. Open `index.html` in your browser — that's it.
+3. Fill in your project details and click **Generate README**.
+
+
+## 🛠️ Features
+ 
+- Generates full Markdown READMEs using Claude AI
+- Choose your language, sections, and tone
+- Copy to clipboard or download as `README.md`
+- Zero dependencies — pure HTML, CSS, JavaScript
+- Works offline-ready (just needs API access)
+ 
+## 📁 Project structure
+ 
+```
+ai-readme-generator/
+├── index.html   ← the entire app lives here
+└── README.md    ← this file
+```
+ 
+## 📝 License
+ 
+MIT — free to use and modify.
