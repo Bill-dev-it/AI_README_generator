@@ -68,13 +68,6 @@ Then:
 Your key is never saved or sent anywhere except directly to Anthropic.
 Screenshots
 
-1. Main interface (empty form)
-<img src="https://via.placeholder.com/800x500/141720/00e5a0?text=Tool+Interface+Screenshot" alt="Screenshot of the tool interface">
-2. After entering API key & generating a README
-<img src="https://via.placeholder.com/800x500/141720/00e5a0?text=Generated+README+Example" alt="Screenshot of generated README">
-(Tip: Take screenshots yourself using Snipping Tool / Lightshot / browser dev tools, upload them to GitHub repo or imgur, then replace the placeholder links.)
-
-
 ## 🛠️ Features
  
 - Generates full Markdown READMEs using Claude AI
