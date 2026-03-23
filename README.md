@@ -1,6 +1,6 @@
 # 📄 AI README Generator
 
-> Instantly create beautiful, professional README files for your GitHub projects — powered by AI (Claude from Anthropic).
+> Instantly create beautiful, professional README files for your GitHub projects — powered by Claude AI (Anthropic).
 
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Made with](https://img.shields.io/badge/made%20with-HTML%20%2B%20CSS%20%2B%20JavaScript-blue)
@@ -8,32 +8,37 @@
 
 ## ✨ What this tool does
 
-Just tell it:
-- Your project name
-- A short description (1–3 sentences)
-- Preferred programming language
-- Which sections you want (Overview, Features, Installation, etc.)
+Enter:
+- Project name
+- Short description (1–3 sentences)
+- Main programming language
+- Desired sections (Overview, Features, Installation, etc.)
 
-Click **Generate README** → get a complete, well-formatted `README.md` file in seconds — ready to copy or download.
+→ Click **Generate README** → get a complete, nicely formatted `README.md` in seconds.
 
-No account needed for the tool itself. No server or installation required. It runs 100% in your browser.
+You can copy it to clipboard or download it directly.
 
-## Important: You need a free Anthropic (Claude) API key
+**Important:** The tool runs **100% in your browser** — no account, no server, no installation needed.
 
-This tool uses **Claude AI** (made by Anthropic) to write the README.  
-To use it, you must provide **your own API key** — it's quick and usually free to start.
+## 🔑 You need your own Anthropic API key
 
-### How to get your Claude API key (takes ~2 minutes)
+This tool uses **Claude** (by Anthropic) to generate the content.  
+You must enter **your own API key** in the form every time you use it.
 
-1. Go to: https://console.anthropic.com/
-2. Sign up / log in with your email (or Google)
-3. Once in the dashboard, go to **API Keys** (left menu or profile)
-4. Click **Create Key**
-5. Give it a name (e.g. "README Generator")
-6. Copy the key (starts with `sk-ant-...`) — **save it somewhere safe!** You won't see it again.
-7. (Optional but recommended) Add some credits/billing — many get $5–10 free credits to start.
+### How to get a free Anthropic API key (2 minutes)
 
-→ The tool is free to use, but each generation costs a tiny amount of your Anthropic credits (usually pennies or less per README).
+1. Go to → https://console.anthropic.com/
+2. Sign up or log in (email or Google)
+3. Verify your phone number (required for free trial credits in most countries)
+4. Go to **API Keys** in the sidebar
+5. Click **Create Key**
+6. Name it (e.g. "README Generator")
+7. Copy the key (starts with `sk-ant-...`)
+8. **Save it securely** — you won't see it again
+
+New accounts usually get **$5–10 in free trial credits** (enough for many README generations).
+
+→ Each generation costs a very small amount (usually **less than $0.03**).
 
 ## 🚀 How to use
  
@@ -41,8 +46,33 @@ To use it, you must provide **your own API key** — it's quick and usually free
    ```bash
    git clone https://github.com/YOUR_USERNAME/AI-README-generator.git
    ```
-2. Open `index.html` in your browser — that's it.
-3. Fill in your project details and click **Generate README**.
+2. Open the file index.html in any browser
+(double-click it or drag it into Chrome/Firefox/Edge)
+3. In the form that opens:
+- Enter project name & description
+- Paste your Anthropic API key into the "Anthropic API Key" field
+- Choose language & sections
+- Click Generate README →
+
+ 4. Copy or download the generated README
+
+Option 2: Use the live demo (no download needed)
+Open this link directly:
+👉 https://bill-dev-it.github.io/AI_README_generator/
+Then:
+
+- Paste your own API key in the form
+- Fill project details
+- Click Generate
+
+Your key is never saved or sent anywhere except directly to Anthropic.
+Screenshots
+
+1. Main interface (empty form)
+<img src="https://via.placeholder.com/800x500/141720/00e5a0?text=Tool+Interface+Screenshot" alt="Screenshot of the tool interface">
+2. After entering API key & generating a README
+<img src="https://via.placeholder.com/800x500/141720/00e5a0?text=Generated+README+Example" alt="Screenshot of generated README">
+(Tip: Take screenshots yourself using Snipping Tool / Lightshot / browser dev tools, upload them to GitHub repo or imgur, then replace the placeholder links.)
 
 
 ## 🛠️ Features
